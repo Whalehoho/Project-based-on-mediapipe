@@ -1,4 +1,4 @@
-# Sample Project: Personal Workout Trainer
+# Personal Workout Trainer
 
 Bicep Curls | Squats
 :-: | :-:
