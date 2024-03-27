@@ -1,4 +1,4 @@
-# Project-based-on-mediapipe
+# Personal Workout Trainer
 
 Bicep Curls | Squats
 :-: | :-:
