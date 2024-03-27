@@ -3,12 +3,12 @@ import numpy as np
 import time
 import PoseModule as pm
 
-cap = cv2.VideoCapture("./Videos/push up.mp4")
+cap = cv2.VideoCapture("./Videos/squats.mp4")
 detector = pm.poseDetector()
 
 success, img = cap.read()
 H, W, _ = img.shape
-out = cv2.VideoWriter("./Videos/push up.mp4_out.mp4", cv2.VideoWriter_fourcc(*'MP4V'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
+out = cv2.VideoWriter("./Videos/squats.mp4_out.mp4", cv2.VideoWriter_fourcc(*'MP4V'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
 
 count = 0
 dir = 0
